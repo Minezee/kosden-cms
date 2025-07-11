@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_shared_room_variants",
+  "info": {
+    "displayName": "RoomVariant"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "basic",
+        "medium",
+        "vip"
+      ]
+    },
+    "price": {
+      "type": "integer"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}
