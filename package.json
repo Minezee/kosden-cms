@@ -18,7 +18,9 @@
   "dependencies": {
     "@strapi/plugin-cloud": "5.17.0",
     "@strapi/plugin-users-permissions": "5.17.0",
+    "@strapi/provider-upload-cloudinary": "^5.18.0",
     "@strapi/strapi": "5.17.0",
+    "cloudinary": "^2.7.0",
     "fs-extra": "^10.0.0",
     "mime-types": "^2.1.27",
     "pg": "8.8.0",
@@ -27,7 +29,6 @@
     "react-router-dom": "^6.0.0",
     "styled-components": "^6.0.0"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=18.0.0 <=22.x.x",
     "npm": ">=6.0.0"
