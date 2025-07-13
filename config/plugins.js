@@ -7,13 +7,6 @@ module.exports = ({ env }) => ({
                 api_key: env('CLOUDINARY_KEY'),
                 api_secret: env('CLOUDINARY_SECRET'),
             },
-            actionOptions: {
-                upload: {
-                    folder: env('CLOUDINARY_FOLDER'), // optional
-                    resource_type: 'auto',
-                },
-                delete: {},
-            },
         },
     },
 });
