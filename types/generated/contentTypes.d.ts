@@ -570,6 +570,7 @@ export interface ApiRentalPlaceRentalPlace extends Struct.CollectionTypeSchema {
     name: Schema.Attribute.String;
     overview: Schema.Attribute.RichText;
     publishedAt: Schema.Attribute.DateTime;
+    rank: Schema.Attribute.Integer;
     roomVariant: Schema.Attribute.Component<'shared.room-variant', true>;
     slug: Schema.Attribute.UID<'name'>;
     updatedAt: Schema.Attribute.DateTime;

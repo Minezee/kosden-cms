@@ -50,6 +50,9 @@
       "type": "component",
       "component": "shared.room-variant",
       "repeatable": true
+    },
+    "rank": {
+      "type": "integer"
     }
   }
 }
